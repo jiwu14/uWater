@@ -17,6 +17,15 @@ create table UserSetting(
   CONSTRAINT USU_FK FOREIGN KEY (userId) REFERENCES Users(id)
 );
 
+create table WaterTimeRanges(
+  userId int,
+  startTime time,
+  endTime time,
+  PRIMARY KEY(userId, startTime),
+  UNIQUE(userId, endTime),
+  CONSTRAINT WTRU_FK FOREIGN KEY (userId) REFERENCES Users(id)
+);
+
 create table DeviceData(
   id int primary key auto_increment,
   userId int NOT NULL,

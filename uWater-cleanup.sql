@@ -1,2 +1,2 @@
 -- uWater DB Schema
-drop tables DeviceData, UserSetting, Users;
+drop tables DeviceData, WaterTimeRanges, UserSetting, Users;
