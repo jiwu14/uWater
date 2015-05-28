@@ -20,7 +20,7 @@ create table UserSetting(
 create table WaterTimeRanges(
   userId int,
   startTime time,
-  endTime time,
+  endTime time NOT NULL,
   PRIMARY KEY(userId, startTime),
   UNIQUE(userId, endTime),
   CONSTRAINT WTRU_FK FOREIGN KEY (userId) REFERENCES Users(id)
