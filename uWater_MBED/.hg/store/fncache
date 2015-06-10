@@ -1,0 +1,11 @@
+data/mbedEndpointResources/LightResource.h.i
+data/mbedEndpointNetwork.lib.i
+data/main.cpp.i
+data/mbedEndpointResources/OnBoardLED.h.i
+data/mbedEndpointResources/SliderResource.h.i
+data/mbedEndpointResources/RelayResource.h.i
+data/Chainable_RGB_LED.lib.i
+data/nsp_configuration.h.i
+data/mbed.bld.i
+data/mbedEndpointResources/MoistureResource.h.i
+data/mbedConnectorInterface.lib.i

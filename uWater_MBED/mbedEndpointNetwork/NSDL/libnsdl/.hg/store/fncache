@@ -1,0 +1,5 @@
+data/sn_coap_protocol.h.i
+data/sn_nsdl_lib.h.i
+data/sn_coap_header.h.i
+data/libnsdl.ar.i
+data/sn_nsdl.h.i
